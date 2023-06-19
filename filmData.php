@@ -30,4 +30,13 @@ $movies = [
             new Genres('Drammatico', "Un film drammatico è un genere di film che si basa sullo sviluppo dei personaggi, dell'interazione tra essi e che tratta temi di impatto emotivo.", 6),
         ]
     ),
+    new Movie(
+        "Il primo re",
+        'Italiano',
+        2019,
+        [
+            new Genres('Storico', "Un film storico è un film in costume che tratta vicende reali, veramente o almeno verosimilmente avvenute nel passato e comunque ambientate in un preciso contesto storico, ricostruito nei dettagli in modo da apparire credibile allo spettatore.", 7),
+            new Genres('Drammatico', "Un film drammatico è un genere di film che si basa sullo sviluppo dei personaggi, dell'interazione tra essi e che tratta temi di impatto emotivo.", 6),
+        ]
+    ),
 ];
