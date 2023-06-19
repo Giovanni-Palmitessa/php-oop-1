@@ -21,4 +21,13 @@ $movies = [
             new Genres('Avventura', "Genere cinematografico destinato al divertimento e all'evasione, basato sul racconto di imprese rischiose e piene di imprevisti, inserite all'interno di viaggi in luoghi misteriosi e irti di pericoli.", 3),
         ]
     ),
+    new Movie(
+        "C'era una volta a... Hollywood",
+        'English',
+        2019,
+        [
+            new Genres('Commedia', "Un film commedia è un genere di film che pone l'accento sull'umorismo. I film di questo genere solitamente hanno un lieto fine. Il genere non va scambiato col film comico, nel quale lo scopo principale è quello di far ridere il pubblico.", 5),
+            new Genres('Drammatico', "Un film drammatico è un genere di film che si basa sullo sviluppo dei personaggi, dell'interazione tra essi e che tratta temi di impatto emotivo.", 6),
+        ]
+    ),
 ];
