@@ -21,7 +21,5 @@ class Movie
             }
         };
         $this->genres = $genres;
-        // incremento il contatore che conta gli oggetti instanziati
-        // self::$counter += 1;
     }
 }
