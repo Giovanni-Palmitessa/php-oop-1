@@ -22,4 +22,12 @@ class Movie
         };
         $this->genres = $genres;
     }
+
+    // instance methods
+
+    function printLang($stringa)
+    {
+        $language = substr($stringa, 0, 3);
+        echo $language;
+    }
 }
