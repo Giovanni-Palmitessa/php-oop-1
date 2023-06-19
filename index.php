@@ -24,6 +24,8 @@ include __DIR__ . '/filmData.php'; ?>
                     <h2><?= $movie->name ?></h2>
                     <h4><?= $movie->language ?></h4>
                     <p><?= $movie->year ?></p>
+                    <!-- To fix -->
+                    <p><?= $movie->genres->genreName ?></p>
                 </div><?php
                     } ?>
 
