@@ -21,7 +21,7 @@ include __DIR__ . '/filmData.php'; ?>
             <?php
             foreach ($movies as $movie) { ?>
                 <div class="card m-5">
-                    <img src="./assets/img/king.jpg" alt="">
+                    <img src="<?= $movie->imageUrl ?>" alt="<?= $movie->name ?>">
                     <h2><?= $movie->name ?></h2>
                     <h4><?= $movie->language ?></h4>
                     <p><?= $movie->year ?></p>
