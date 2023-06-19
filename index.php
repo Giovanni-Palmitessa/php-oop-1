@@ -1,6 +1,7 @@
 <?php
 include __DIR__ . '/classes/Movie.php';
-include __DIR__ . '/classes/Genres.php'; ?>
+include __DIR__ . '/classes/Genres.php';
+include __DIR__ . '/filmData.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
