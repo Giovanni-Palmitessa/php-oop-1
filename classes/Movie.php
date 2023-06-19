@@ -9,7 +9,7 @@ class Movie
 
     // constuctor
 
-    public function __construct(string $name, string $language, int $year, array $genres = [])
+    public function __construct(string $name, string $language, int $year, array $genres = [], string $imageUrl)
     {
         $this->name = $name;
         $this->language = $language;
@@ -21,6 +21,7 @@ class Movie
             }
         };
         $this->genres = $genres;
+        $this->imageUrl = $imageUrl;
     }
 
     // instance methods
