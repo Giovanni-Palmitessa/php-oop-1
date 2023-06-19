@@ -16,7 +16,17 @@ include __DIR__ . '/filmData.php'; ?>
 
 <body>
     <div class="container">
+        <div class="cards-container d-flex justify-content-between">
+            <?php
+            foreach ($movies as $movie) { ?>
+                <div class="card m-5">
+                    <h2><?= $movie->name ?></h2>
+                    <h4><?= $movie->language ?></h4>
+                    <p><?= $movie->year ?></p>
+                </div><?php
+                    } ?>
 
+        </div>
     </div>
 </body>
 
