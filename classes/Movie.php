@@ -25,9 +25,9 @@ class Movie
 
     // instance methods
 
-    function printLang($stringa)
+    public function printLang()
     {
-        $language = substr($stringa, 0, 3);
-        echo $language;
+        $language = substr($this->language, 0, 3);
+        return $language;
     }
 }

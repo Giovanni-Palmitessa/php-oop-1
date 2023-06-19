@@ -29,6 +29,7 @@ include __DIR__ . '/filmData.php'; ?>
                             <li><?= $genre->genreName ?></li>
                         <?php } ?>
                     </ul>
+                    <p>Lingua Originale: <?= $movie->printLang() ?></p>
                 </div><?php
                     } ?>
 
