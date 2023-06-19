@@ -16,7 +16,7 @@ class Movie
         $this->year = $year;
         // ciclo che controlla che ogni indirizzo sia di tipo Genres
         foreach ($genres as $genre) {
-            if (!$genre instanceof Genres) {
+            if (!$genre instanceof Genre) {
                 die('Gli indirizzi devono essere di tipo Genres');
             }
         };
