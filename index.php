@@ -25,7 +25,11 @@ include __DIR__ . '/filmData.php'; ?>
                     <h4><?= $movie->language ?></h4>
                     <p><?= $movie->year ?></p>
                     <!-- To fix -->
-                    <p><?= $movie->genres->genreName ?></p>
+                    <ul><?php
+                        foreach ($movie->genres as $genre) { ?>
+                            <li><?= $genre->genreName ?></li>
+                        <?php } ?>
+                    </ul>
                 </div><?php
                     } ?>
 
